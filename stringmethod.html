@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let  str=prompt("enter the text")
+        console.log(str.toUpperCase());
+
+        let  str1=prompt("enter the text")
+        console.log(str1.toLowerCase());
+
+        let str2=prompt("enter the text")
+        console.log(str2.split("").reverse());
+                                  
+                                   "ADVANCED"
+
+         console.log("TASK-1")
+         let str3=prompt("enter the text")
+         console.log(str3.length);
+         if(str3.length>5 && str3.length<15){
+            console.log("user name is valid");
+            
+         }
+         else{
+            console.log("user name is not valid");
+            
+         }
+
+
+         console.log("task-2");
+         
+        let str4=prompt("enter the firstname")
+        let str5=prompt("enter the lastname")
+         a=str4.toLowerCase();
+         b=str5.toLowerCase();
+         console.log(a.concat(".",b,"@gmail.com"));
+         
+         console.log("task-3");
+         
+        let str6=prompt("enter the sentence")
+        let c=str6.split(" ");
+        console.log(c);
+        console.log(c.length);
+        
+        
+        console.log("Task4");
+        let str7=prompt("enter a string for palindrome");
+        let h=str7.split("").reverse().join("");
+        console.log(h);
+        if(str7==h){
+            console.log("String is a palindrome");
+        }
+        else{
+            console.log("String is not a palindrome");
+            
+        }
+        
+         
+         
+        
+        
+        
+    </script>
+</body>
+</html>
